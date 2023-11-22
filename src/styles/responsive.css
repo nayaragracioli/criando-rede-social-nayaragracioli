@@ -1,0 +1,136 @@
+@media (min-width: 320px) and (max-width: 425px) {
+
+    .header__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 120vw;
+        min-width: 20rem;
+        height: 4.6875rem;
+    }
+
+    .header__image{
+        margin-left: 3rem;
+    }
+
+    .header__title {
+        margin-right: 4rem;
+    }
+
+   .main__container {
+        width: 100%;
+        margin: 0.625rem 0.625rem 1.875rem;
+        max-width: 26.5625rem;
+        min-width: 20rem;
+    }
+
+   .post__container {
+        flex-wrap: wrap;
+        width: 100vw;
+    }
+
+    .social__container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-bottom: -3.75rem;
+    }
+
+    .form__container {
+        display: flex;
+        flex-direction: column;
+        margin: 4rem 0rem;
+        padding: 0.4375rem;
+    }
+
+    .suggestion__container {
+        width: 100%;
+        overflow-x: auto;
+        padding: 1.25rem;
+    }
+
+    .suggestion__list{
+        flex-direction: row;
+    }
+
+    .suggestion__item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .suggestion__informations {
+        padding: 0.625rem 0.625rem 1.25rem 0.625rem;
+    }
+
+    .list-post__container {
+        margin-top: 4.375rem;
+        width: 100vw;
+    }
+
+    .list-post__title, .article__post {
+        margin: 2.5rem 0 0 0.75rem;
+    }
+
+    .modal__controller{
+        width: 18.125rem;
+    }
+}
+
+
+@media (min-width: 426px) and (max-width: 1024px){
+
+    .header__container {
+        width: 100vw;
+        min-width: 426px;
+        max-width: 1024px;
+    }   
+    
+    .header__image{
+        margin-left: 5rem;
+    }
+
+    .header__title {
+        margin-right: 4rem;
+    }
+
+    .main__container {
+        margin: 1.25rem 1.25rem 0rem 1.875rem;
+    }
+
+    .post__container {
+        flex-wrap: wrap;
+        width: 89vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social__container {
+        flex-wrap: wrap;
+        margin-bottom: -3.75rem;
+        width: 100%;
+    }
+
+    .suggestion__container {
+        width: 100%;
+    }
+
+    .suggestion__list {
+        flex-direction: row;
+    }
+
+    .suggestion__item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .list-post__container {
+        margin-top: 70px;
+        width: 89vw;
+    }
+
+    .list-post__title, .article__post {
+        margin: 40px 0 0 12px;
+        padding-right: 8px;
+    }
+}

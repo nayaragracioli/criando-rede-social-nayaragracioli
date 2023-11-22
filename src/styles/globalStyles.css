@@ -1,0 +1,44 @@
+:root {
+    --color-brand1: #4263EB;
+    --color-brand2: #364FC7;
+    --color-grey0: #0A0C0D;
+    --color-grey1: #212529;
+    --color-grey2: #495057;
+    --color-grey3: #868E96;
+    --color-grey4: #DEE2E6;
+    --color-grey5: #F8F9FA;
+    --color-grey-opacity1: rgba(33, 37, 41, 0.5); 
+    --color-white-fixed: #FFFFFF;
+    --color-like: #D7443E;
+
+    --title1-font-weigth: 700;
+    --title1-font-size: 1.75rem;
+    --title1-line-height: 2.5rem;
+
+    --title2-font-weigth: 600;
+    --title2-font-size: 1.25rem;
+    --title2-line-height: 1.5rem;
+
+    --text1-font-weigth: 400;
+    --text1-font-size: 1rem;
+    --text1-line-height: 1.75rem;
+
+    --text2-font-weigth: 400;
+    --text2-font-size: 0.875rem;
+    --text2-line-height: 1rem;
+
+    --text3-font-weigth: 400;
+    --text3-font-size: 0.75rem;
+    --text3-line-height: 1rem;
+
+  }
+
+  body{
+    font-family: "Inter", sans-serif;
+  }
+
+  button {
+    font-weight: var(--title2-font-weigth);
+    font-size: var(--text2-font-size);
+    
+  }

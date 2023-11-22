@@ -1,0 +1,66 @@
+.form__button {
+    background-color: var(--color-brand1);
+    color: var(--color-white-fixed);
+    border-color: transparent;
+    border-radius: 0.3125rem;
+    width: 4.375rem;
+    height: 2.5rem;
+    align-self: flex-end;
+    margin: 40px 0px;
+    cursor: pointer;
+}
+
+.form__button:hover{
+    background-color: var(--color-brand2);
+}
+
+.suggestion__button {
+    background-color: var(--color-white-fixed);
+    color: var(--color-grey1);
+    border: 1px solid var(--color-grey1);
+    border-radius: 0.125rem;
+    padding: 0rem 0.75rem;
+    height: 1.875rem;
+    cursor: pointer;
+}
+
+.suggestion__button:hover{
+    color: var(--color-brand2);
+    background-color: var(--color-white-fixed);
+    border-color: var(--color-brand2);
+}
+
+.suggestion__button:focus{
+    background-color: var(--color-brand2);
+    color: var(--color-white-fixed);
+}
+
+
+.article__button {
+    background-color: var(--color-grey1);
+    color: var(--color-white-fixed);
+    border-color: transparent;
+    border-radius: 0.3125rem;
+    width: 6.25rem;
+    height: 2.5rem;
+    cursor: pointer;
+}
+
+.article__button:hover{
+    background-color: var(--color-grey0);
+}
+
+.form__button, .suggestion__button, .article__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.suggestion__button--follow{
+    background-color: var(--color-brand2);
+    color: var(--color-white-fixed);
+    border: 1px solid var(--color-grey1);
+    border-radius: 0.125rem;
+    padding: 0rem 0.75rem;
+    height: 1.875rem;
+}
